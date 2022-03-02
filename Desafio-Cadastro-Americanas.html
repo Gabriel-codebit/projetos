@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes - Americanas</title>
+</head>
+
+<body>
+    <section class="cabeçalho">
+        <img src="imagens\logo_americanas.jpg" width="100%" alt="logo">
+    </section>
+    <br>
+
+    <h1 align="center">criar seu cadastro</h1>
+    <p align="center">
+        veja seus pedidos de forma fácil, compre mais rápido e tenha uma <br>
+        experiência personalizada :)
+    </p>
+    <p align="center">*campos obrigatórios</p> <br>
+
+
+    <form action="" method="post">
+        <p><label>*nome completo</label> <br>
+        <input type="text" name="nome" size="40"> <br><br>
+
+        <label>*gênero <br>
+            pra gente te conhecer um pouquinho melhor:)</label>
+        <br><br>
+        <input type="radio" name="opcao">feminino
+        <input type="radio" name="opcao">masculino
+        <input type="radio" name="opcao">não informar <br><br>
+
+        <label>*data de nascimento <br>
+            necessário pra identificar a maioridade, no formato DD/MM/AAAA</label> <br>
+        <input type="text" name="data" placeholder="__/__/____" maxlength="10" size="10"> <br><br>
+
+        <label>*CPF<br>
+            necessário pra emissão das Notas Fiscais</label> <br>
+        <input type="text" size="14" maxlength="14" name="cpf" placeholder="___.___.___-__"><br>
+        <a href="">é pessoa jurídica? conheça a americanas empresas</a> <br><br>
+
+        <label>*telefone</label> <br>
+        <input type="tel" name="telefone" size="15" placeholder="(__) _____-____"> <br><br>
+        <input type="checkbox" name="checkbox_telefone"> receber notificações por Whatsapp <br><br>
+
+        <label>*email</label> <br>
+        <input type="email" name="email" size="30" placeholder="Ex:joao@gmail.com"> <br><br>
+        <input type="checkbox" name="checkbox_email"> receber e-mails promocionais <br><br>
+
+        <label>*senha <br>
+            precisa ter entre 6 e 20 caracteres</label> <br>
+        <input type="password" name="senha" size="20" maxlength="20"> <br><br>
+
+        <input type="checkbox" name="share_dados">compartilhar meus dados com parceiros para ter
+        conteúdos personalizados, veja como funciona. <br><br>
+
+        <h4 align="center"><input type="button" name='criarCadastro' value="criar seu cadastro" onclick="alert('Cadastro Enviado!')">
+            <br><br>
+        </h4>
+    </form>
+
+    <p align="center">Não se preocupe, nosso site é seguro! Ao criar o seu cadastro, <br>
+        você concorda com a nossa <a href="politicadeprivacidade_americanas.html">Política de Privacidade</a></p> <br>
+    <p align="center">já tem cadastro? <a href="login_usuario_Americanas.html">entrar</a></p> <br>
+</body>
+
+</html>
